@@ -14,6 +14,7 @@
     "embed-dev": "yarn workspace @calcom/embed-core dev",
     "embed-web-start": "yarn workspace @calcom/web start",
     "__build": "yarn tailwind && vite build && tsc --emitDeclarationOnly --declarationDir dist && cp -r ../../../apps/web/public/embed ./dist/",
+    "__buildwin": "yarn tailwind && vite build && tsc --emitDeclarationOnly --declarationDir dist && xcopy ..\\\\..\\\\..\\\\apps\\\\web\\\\public\\\\embed .\\\\dist\\\\  /E /H /y",
     "__dev": "yarn tailwind && vite build --mode development",
     "abuild": "rm -rf dist && NEXT_PUBLIC_EMBED_FINGER_PRINT=$(git rev-parse --short HEAD) yarn __build",
     "build": "yarn __build",

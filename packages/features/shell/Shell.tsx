@@ -447,20 +447,6 @@ function UserDropdown({ small }: UserDropdownProps) {
                 <DropdownMenuSeparator />
                 <DropdownMenuItem>
                   <DropdownItem
-                    StartIcon={() => <Discord className="text-default h-4 w-4" />}
-                    target="_blank"
-                    rel="noreferrer"
-                    href={JOIN_DISCORD}>
-                    {t("join_our_discord")}
-                  </DropdownItem>
-                </DropdownMenuItem>
-                <DropdownMenuItem>
-                  <DropdownItem StartIcon={Map} target="_blank" href={ROADMAP}>
-                    {t("visit_roadmap")}
-                  </DropdownItem>
-                </DropdownMenuItem>
-                <DropdownMenuItem>
-                  <DropdownItem
                     type="button"
                     StartIcon={(props) => <HelpCircle aria-hidden="true" {...props} />}
                     onClick={() => setHelpOpen(true)}>
@@ -574,7 +560,7 @@ const navigation: NavigationItemType[] = [
     href: "/more",
     icon: MoreHorizontal,
   },
-  {
+/*   {
     name: "Routing Forms",
     href: "/apps/routing-forms/forms",
     icon: FileText,
@@ -584,7 +570,7 @@ const navigation: NavigationItemType[] = [
     name: "workflows",
     href: "/workflows",
     icon: Zap,
-  },
+  }, */
   {
     name: "insights",
     href: "/insights",

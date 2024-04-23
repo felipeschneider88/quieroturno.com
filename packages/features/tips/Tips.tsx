@@ -21,14 +21,14 @@ export const tips = [
     description: "Learn how to use round-robin and collective events.",
     href: "https://cal.com/docs/enterprise-features/teams",
   },
-  {
+/*   {
     id: 3,
     thumbnailUrl: "https://img.youtube.com/vi/c7ZKFuLy1fg/0.jpg",
     mediaLink: "https://go.cal.com/routing-video",
     title: "Routing Forms, Workflows",
     description: "Ask screening questions of potential bookers to connect them with the right person",
     href: "https://cal.com/blog/cal-v-1-8",
-  },
+  }, */
   {
     id: 4,
     thumbnailUrl: "https://img.youtube.com/vi/zGr_s-fG84k/0.jpg",
@@ -37,14 +37,14 @@ export const tips = [
     description: "Learn how to be in charge of your bookings",
     href: "https://cal.com/resources/feature/opt-in",
   },
-  {
+/*   {
     id: 5,
     thumbnailUrl: "https://img.youtube.com/vi/0v_nQtpxC_4/0.jpg",
     mediaLink: "https://go.cal.com/payments-video",
     title: "Accept Payments",
     description: "Charge for your time with Cal.com's Stripe App",
     href: "https://app.cal.com/apps/stripe",
-  },
+  }, */
   {
     id: 6,
     thumbnailUrl: "https://img.youtube.com/vi/yGiZo1Ry5-8/0.jpg",
@@ -53,30 +53,30 @@ export const tips = [
     description: "Learn how to create a recurring schedule",
     href: "https://go.cal.com/recurring-video",
   },
-  {
-    id: 7,
+/*  {
+     id: 7,
     thumbnailUrl: "https://img.youtube.com/vi/UVXgo12cY4g/0.jpg",
     mediaLink: "https://go.cal.com/routing-forms",
     title: "Routing Forms",
     description: "Ask questions and route to the correct person",
     href: "https://go.cal.com/routing-forms",
-  },
-  {
+  }, */
+/*   {
     id: 8,
     thumbnailUrl: "https://img.youtube.com/vi/piKlAiibAFo/0.jpg",
     mediaLink: "https://go.cal.com/workflows",
     title: "Automate Workflows",
     description: "Make time work for you and automate tasks",
     href: "https://go.cal.com/workflows",
-  },
-  {
+  }, */
+/*   {
     id: 9,
     thumbnailUrl: "https://img.youtube.com/vi/93iOmzHieCU/0.jpg",
     mediaLink: "https://go.cal.com/round-robin",
     title: "Round-Robin",
     description: "Create advanced group meetings with round-robin",
     href: "https://go.cal.com/round-robin",
-  },
+  }, */
   {
     id: 10,
     thumbnailUrl: "https://img.youtube.com/vi/jvaBafzVUQc/0.jpg",

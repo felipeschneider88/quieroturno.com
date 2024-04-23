@@ -12,6 +12,7 @@
   "scripts": {
     "dev": "vite --port=3101 --open",
     "build": "rm -rf dist && vite build && cp ./dist/Cal.es.js ./dist/Cal.es.mjs && tsc --emitDeclarationOnly --declarationDir dist",
+    "buildwin": "vite build && echo F|xcopy .\\\\dist\\\\Cal.es.js .\\\\dist\\\\Cal.es.mjs /y && tsc --emitDeclarationOnly --declarationDir dist",
     "preview": "vite preview",
     "type-check": "tsc --pretty --noEmit",
     "type-check:ci": "tsc-absolute --pretty --noEmit",

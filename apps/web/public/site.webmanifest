@@ -1,6 +1,6 @@
 {
-    "name": "Cal.com",
-    "short_name": "Cal.com",
+    "name": "quieroturno.com",
+    "short_name": "quieroturno.com",
     "icons": [
         {
             "src": "/api/logo?type=android-chrome-192",

@@ -13,18 +13,19 @@ function detectTransport(): SendmailTransport.Options | SMTPConnection.Options |
     const auth =
       process.env.EMAIL_SERVER_USER && process.env.EMAIL_SERVER_PASSWORD
         ? {
-            user: process.env.EMAIL_SERVER_USER,
-            pass: process.env.EMAIL_SERVER_PASSWORD,
-          }
+          user: process.env.EMAIL_SERVER_USER,
+          pass: process.env.EMAIL_SERVER_PASSWORD,
+        }
         : undefined;
 
     const transport = {
       host: process.env.EMAIL_SERVER_HOST,
       port,
       auth,
-      secure: port === 465,
+      secure: false,
       tls: {
-        rejectUnauthorized: !isENVDev,
+        rejectUnauthorized: false,
+        requireTLS: true,
       },
     };
 
