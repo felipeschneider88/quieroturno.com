@@ -63,7 +63,7 @@ const AppearanceView = () => {
   const formMethods = useForm({
     defaultValues: {
       theme: user?.theme,
-      brandColor: user?.brandColor || "#292929",
+      brandColor: user?.brandColor || "#3C73C5",
       darkBrandColor: user?.darkBrandColor || "#fafafa",
       hideBranding: user?.hideBranding,
       metadata: user?.metadata as z.infer<typeof userMetadata>,

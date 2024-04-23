@@ -31,7 +31,7 @@ function useClientLocale(locales: string[]) {
     return lookup(locales, window.navigator.language) || window.navigator.language;
   }
   // If the browser is not available, use English
-  return "en";
+  return "es";
 }
 
 export function useClientViewerI18n(locales: string[]) {

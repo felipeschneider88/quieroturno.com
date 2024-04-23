@@ -7,8 +7,8 @@
 :root {
   /* background */
 
-  --cal-bg-emphasis: #e5e7eb;
-  --cal-bg: white;
+  --cal-bg-emphasis: #224e8f;
+  --cal-bg: #434750;
   --cal-bg-subtle: #f3f4f6;
   --cal-bg-muted: #f9fafb;
   --cal-bg-inverted: #111827;
@@ -44,18 +44,18 @@
   /* Brand shinanigans
       -> These will be computed for the users theme at runtime.
     */
-  --cal-brand: #111827;
-  --cal-brand-emphasis: #101010;
-  --cal-brand-text: white;
+  --cal-brand: #434750;
+  --cal-brand-emphasis: #224e8f;
+  --cal-brand-text: rgb(5, 4, 4);
 }
 .dark {
   /* background */
 
-  --cal-bg-emphasis: #2b2b2b;
-  --cal-bg: #101010;
+  --cal-bg-emphasis: #224e8f;
+  --cal-bg: #434750;
   --cal-bg-subtle: #2b2b2b;
   --cal-bg-muted: #1c1c1c;
-  --cal-bg-inverted: #f3f4f6;
+  --cal-bg-inverted: #3c73c5;
 
   /* background -> components*/
   --cal-bg-info: #263fa9;
@@ -88,8 +88,8 @@
   /* Brand shenanigans
       -> These will be computed for the users theme at runtime.
     */
-  --cal-brand: white;
-  --cal-brand-emphasis: #e1e1e1;
+  --cal-brand: #3c73c5;
+  --cal-brand-emphasis: #224e8f;
   --cal-brand-text: black;
 }
 
@@ -174,7 +174,7 @@ html.todesktop-platform-darwin .desktop-transparent {
 }
 
 html.todesktop-platform-darwin.dark main.bg-default {
-  background: rgba(0, 0, 0, 0.6) !important;
+  background:#3c73c5 !important;
 }
 
 html.todesktop-platform-darwin.light main.bg-default {

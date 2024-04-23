@@ -56,8 +56,8 @@
 }
 
 /** Column titles **/
-.docblock-argstable-body tr td > span,
-.docblock-argstable-head tr th > span {
+.docblock-argstable-body tr td>span,
+.docblock-argstable-head tr th>span {
   color: #525252 !important;
   font-weight: 500 !important;
 }
@@ -150,7 +150,7 @@
   border-radius: 8px;
 }
 
-.story-note > div {
+.story-note>div {
   max-width: 600px;
 }
 
@@ -164,12 +164,12 @@
   border-radius: none !important;
 }
 
-.docs-story > div:first-child {
+.docs-story>div:first-child {
   padding: 0 !important;
   margin: 0 !important;
 }
 
-.docs-story .innerZoomElementWrapper > div {
+.docs-story .innerZoomElementWrapper>div {
   border: none !important;
 }
 
@@ -234,10 +234,11 @@
     /* Brand shinanigans
       -> These will be computed for the users theme at runtime.
     */
-    --cal-brand: #111827;
+    --cal-brand: #3C73C5;
     --cal-brand-emphasis: #101010;
     --cal-brand-text: white;
   }
+
   .dark {
     /* background */
 

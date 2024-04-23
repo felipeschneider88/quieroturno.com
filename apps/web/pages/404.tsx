@@ -338,29 +338,6 @@ export default function Custom404() {
                         </a>
                       </li>
                     ))}
-                  <li className="px-4 py-2">
-                    <a
-                      href={JOIN_DISCORD}
-                      className="relative flex items-start space-x-4 py-6 rtl:space-x-reverse">
-                      <div className="flex-shrink-0">
-                        <span className="bg-muted flex h-12 w-12 items-center justify-center rounded-lg">
-                          <Discord className="text-default h-6 w-6" />
-                        </span>
-                      </div>
-                      <div className="min-w-0 flex-1">
-                        <h3 className="text-emphasis text-base font-medium">
-                          <span className="focus-within:ring-empthasis rounded-sm focus-within:ring-2 focus-within:ring-offset-2">
-                            <span className="absolute inset-0" aria-hidden="true" />
-                            Discord
-                          </span>
-                        </h3>
-                        <p className="text-subtle text-base">{t("join_our_community")}</p>
-                      </div>
-                      <div className="flex-shrink-0 self-center">
-                        <ChevronRight className="text-muted h-5 w-5" aria-hidden="true" />
-                      </div>
-                    </a>
-                  </li>
                 </ul>
                 <div className="mt-8">
                   <Link href="/" className="hover:text-subtle text-emphasis text-base font-medium">
