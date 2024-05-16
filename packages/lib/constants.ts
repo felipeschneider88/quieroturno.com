@@ -16,7 +16,7 @@ export const WEBAPP_URL =
 
 // OAuth needs to have HTTPS(which is not generally setup locally) and a valid tld(*.local isn't a valid tld)
 // So for development purpose, we would stick to localhost only
-export const WEBAPP_URL_FOR_OAUTH = IS_PRODUCTION ? WEBAPP_URL : "https://a.quieroturno.com";
+export const WEBAPP_URL_FOR_OAUTH = "https://a.quieroturno.com";
 
 /** @deprecated use `WEBAPP_URL` */
 export const BASE_URL = WEBAPP_URL;

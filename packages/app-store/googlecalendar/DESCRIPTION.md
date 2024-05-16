@@ -4,4 +4,4 @@ items:
   - GCal2.png
 ---
 
-Google Calendar is a time management and scheduling service developed by Google. Allows users to create and edit events, with options available for type and time. Available to anyone that has a Gmail account on both mobile and web versions.
+Google Calendar es un servicio de gestión y programación del tiempo desarrollado por Google. Permite a los usuarios crear y editar eventos, con opciones disponibles para tipo y hora. Disponible para cualquier persona que tenga una cuenta de Gmail tanto en la versión móvil como en la web.

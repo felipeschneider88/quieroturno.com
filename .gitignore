@@ -98,3 +98,4 @@ apps/auth
 !.yarn/sdks
 !.yarn/versions
 packages/prisma/.env
+.env.appStore.example

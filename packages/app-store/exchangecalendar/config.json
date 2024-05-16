@@ -8,9 +8,11 @@
   "logo": "icon.svg",
   "url": "https://cal.com",
   "variant": "calendar",
-  "categories": ["calendar"],
+  "categories": [
+    "calendar"
+  ],
   "publisher": "Cal.com",
-  "email": "help@cal.com",
+  "email": "info@quieroturno.com",
   "description": "Fetch Microsoft Exchange calendars and availabilities using Exchange Web Services (EWS).",
   "__createdUsingCli": true
 }
