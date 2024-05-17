@@ -5,9 +5,9 @@
   "type": "qr_code_other",
   "logo": "icon.svg",
   "url": "https://quieroturno.com/",
-  "variant": "otros",
+  "variant": "other",
   "categories": [
-    "otros"
+    "other"
   ],
   "extendsFeature": "EventType",
   "publisher": "quieroturno.com, Inc.",
