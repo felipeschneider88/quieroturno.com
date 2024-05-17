@@ -6,17 +6,17 @@ export const metadata = {
   name: _package.name,
   description: _package.description,
   installed: true,
-  category: "automation",
-  categories: ["automation"],
+  category: "automatizacion",
+  categories: ["automatizacion"],
   // If using static next public folder, can then be referenced from the base URL (/).
   logo: "icon-dark.svg",
-  publisher: "Cal.com",
+  publisher: "quierturno.com",
   slug: "wipe-my-cal",
-  title: "Wipe my cal",
+  title: "Liber mi día",
   type: "wipemycal_other",
   url: "https://cal.com/apps/wipe-my-cal",
-  variant: "other",
-  email: "help@cal.com",
+  variant: "otros",
+  email: "info@quieroturno.com",
   dirName: "wipemycalother",
 } as AppMeta;
 

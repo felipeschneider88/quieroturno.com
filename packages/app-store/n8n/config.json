@@ -4,11 +4,13 @@
   "slug": "n8n",
   "type": "n8n_automation",
   "logo": "icon.svg",
-  "url": "https://cal.com/",
-  "variant": "automation",
-  "categories": ["automation"],
-  "publisher": "Cal.com, Inc.",
-  "email": "help@cal.com",
-  "description": "Automate without limits. The workflow automation platform that doesn't box you in, that you never outgrow",
+  "url": "https://quieroturno.com/",
+  "variant": "automatizacion",
+  "categories": [
+    "automatizacion"
+  ],
+  "publisher": "quieroturno.com, Inc.",
+  "email": "info@quieroturno.com",
+  "description": "Automatización sin límites. La plataforma de automatizacion que te permite digitalizar tus flujos de trabajo.",
   "__createdUsingCli": true
 }
