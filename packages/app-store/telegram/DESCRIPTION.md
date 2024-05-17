@@ -5,4 +5,4 @@ items:
   - 3.jpg
 ---
 
-Schedule a chat with your guests or have a Telegram Video call.
+Programe una charla con sus invitados o realice una videollamada por Telegram.

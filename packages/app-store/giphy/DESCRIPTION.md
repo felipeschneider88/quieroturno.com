@@ -4,4 +4,4 @@ items:
   - GIPHY2.png
 ---
 
-An online database and search engine that allows users to search for and share short looping videos with no sound that resemble animated GIF files. GIPHY is your top source for the best & newest GIFs & Animated Stickers online. Find everything from funny GIFs, reaction GIFs, unique GIFs and more to add to your custom booking page. Located under advanced settings in each event type.
+Una base de datos en línea y un motor de búsqueda que permite a los usuarios buscar y compartir videos cortos en bucle sin sonido que se parezcan a archivos GIF animados. GIPHY es su principal fuente de los mejores y más nuevos GIF y pegatinas animadas en línea. Encuentre de todo, desde GIF divertidos, GIF de reacciones, GIF únicos y más para agregar a su página de reserva personalizada. Ubicado en configuración avanzada en cada tipo de evento.

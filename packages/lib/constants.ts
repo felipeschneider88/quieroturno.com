@@ -12,15 +12,15 @@ export const WEBAPP_URL =
   RAILWAY_STATIC_URL ||
   HEROKU_URL ||
   RENDER_URL ||
-  "https://a.quieroturno.com";
+  "https://apps.quieroturno.com";
 
 // OAuth needs to have HTTPS(which is not generally setup locally) and a valid tld(*.local isn't a valid tld)
 // So for development purpose, we would stick to localhost only
-export const WEBAPP_URL_FOR_OAUTH = "https://a.quieroturno.com";
+export const WEBAPP_URL_FOR_OAUTH = "https://apps.quieroturno.com";
 
 /** @deprecated use `WEBAPP_URL` */
 export const BASE_URL = WEBAPP_URL;
-export const WEBSITE_URL = process.env.NEXT_PUBLIC_WEBSITE_URL || "https://a.quieroturno.com";
+export const WEBSITE_URL = process.env.NEXT_PUBLIC_WEBSITE_URL || "https://apps.quieroturno.com";
 export const APP_NAME = process.env.NEXT_PUBLIC_APP_NAME || "quieroturno.com";
 export const SUPPORT_MAIL_ADDRESS = process.env.NEXT_PUBLIC_SUPPORT_MAIL_ADDRESS || "hola@quieroturno.com";
 export const COMPANY_NAME = process.env.NEXT_PUBLIC_COMPANY_NAME || "quieroturno.com, Inc.";

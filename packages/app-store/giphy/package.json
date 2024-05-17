@@ -4,7 +4,7 @@
   "name": "@calcom/giphy",
   "version": "0.0.0",
   "main": "./index.ts",
-  "description": "GIPHY is your top source for the best & newest GIFs & Animated Stickers online. Find everything from funny GIFs, reaction GIFs, unique GIFs and more.",
+  "description": "GIPHY es su principal fuente de los mejores y más nuevos GIF y pegatinas animadas en línea. Encuentre de todo, desde GIF divertidos, GIF de reacciones, GIF únicos y más.",
   "dependencies": {
     "@calcom/prisma": "*"
   },

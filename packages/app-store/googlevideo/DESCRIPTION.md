@@ -4,6 +4,6 @@ items:
   - gmeet2.png
 ---
 
-Google Meet is Google's web-based video conferencing platform, designed to compete with major conferencing platforms.
+Google Meet es la plataforma de videoconferencias basada en web de Google, diseñada para competir con las principales plataformas de conferencias.
 
-Note this requires a connected Google Calendar.
+Nota, esto quieere que conectes el calendario de Google.

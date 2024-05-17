@@ -5,11 +5,13 @@
   "type": "whatsapp_video",
   "logo": "icon.svg",
   "url": "https://cal.com/",
-  "variant": "conferencing",
-  "categories": ["messaging"],
-  "publisher": "Cal.com, Inc.",
-  "email": "support@cal.com",
-  "description": "Schedule a chat with your guests or have a WhatsApp Video call.",
+  "variant": "conferencias",
+  "categories": [
+    "messaging"
+  ],
+  "publisher": "quieroturno.com, Inc.",
+  "email": "info@quieroturno.com",
+  "description": "Programe una charla con sus invitados o realice una videollamada por WhatsApp.",
   "__createdUsingCli": true,
   "appData": {
     "location": {

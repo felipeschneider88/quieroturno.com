@@ -4,7 +4,7 @@
   "name": "@calcom/whatsapp",
   "version": "0.0.0",
   "main": "./index.ts",
-  "description": "Schedule a chat with your guests or have a WhatsApp Video call.",
+  "description": "Programe una charla con sus invitados o realice una videollamada por WhatsApp.",
   "dependencies": {
     "@calcom/lib": "*"
   },
