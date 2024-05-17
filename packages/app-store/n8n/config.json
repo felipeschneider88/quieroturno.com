@@ -5,9 +5,9 @@
   "type": "n8n_automation",
   "logo": "icon.svg",
   "url": "https://quieroturno.com/",
-  "variant": "automatizacion",
+  "variant": "automation",
   "categories": [
-    "automatizacion"
+    "automation"
   ],
   "publisher": "quieroturno.com, Inc.",
   "email": "info@quieroturno.com",
