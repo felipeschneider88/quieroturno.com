@@ -6,7 +6,7 @@ export const metadata = {
   name: "Giphy",
   description: _package.description,
   installed: true,
-  categories: ["otros"],
+  categories: ["other"],
   logo: "icon.svg",
   publisher: "quieroturno.com",
   slug: "giphy",
