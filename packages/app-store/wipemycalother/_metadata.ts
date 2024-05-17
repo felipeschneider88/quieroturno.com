@@ -15,7 +15,7 @@ export const metadata = {
   title: "Liber mi día",
   type: "wipemycal_other",
   url: "https://cal.com/apps/wipe-my-cal",
-  variant: "otros",
+  variant: "other",
   email: "info@quieroturno.com",
   dirName: "wipemycalother",
 } as AppMeta;
