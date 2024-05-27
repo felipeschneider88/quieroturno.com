@@ -13,7 +13,7 @@ export const metadata = {
   category: "calendar",
   categories: ["calendar"],
   logo: "icon.svg",
-  publisher: "Cal.com",
+  publisher: "quieroturno.com",
   slug: "google-calendar",
   url: "https://quieroturno.com/",
   email: "info@quieroturno.com",

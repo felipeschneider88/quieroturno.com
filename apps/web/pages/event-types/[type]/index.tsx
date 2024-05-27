@@ -69,7 +69,7 @@ const EventAppsTab = dynamic(() =>
   import("@components/eventtype/EventAppsTab").then((mod) => mod.EventAppsTab)
 );
 
-const EventWorkflowsTab = dynamic(() => import("@components/eventtype/EventWorkfowsTab"));
+//const EventWorkflowsTab = dynamic(() => import("@components/eventtype/EventWorkfowsTab"));
 
 const EventWebhooksTab = dynamic(() =>
   import("@components/eventtype/EventWebhooksTab").then((mod) => mod.EventWebhooksTab)
@@ -147,7 +147,7 @@ const querySchema = z.object({
       "recurring",
       "team",
       "advanced",
-      "workflows",
+      //"workflows",
       "webhooks",
     ])
     .optional()
@@ -323,9 +323,8 @@ const EventTypePage = (props: EventTypeSetupProps) => {
     ).length;
   }
 
-  const permalink = `${CAL_URL}/${team ? `team/${team.slug}` : eventType.users[0].username}/${
-    eventType.slug
-  }`;
+  const permalink = `${CAL_URL}/${team ? `team/${team.slug}` : eventType.users[0].username}/${eventType.slug
+    }`;
 
   const tabMap = {
     setup: (
@@ -343,12 +342,12 @@ const EventTypePage = (props: EventTypeSetupProps) => {
     advanced: <EventAdvancedTab eventType={eventType} team={team} />,
     recurring: <EventRecurringTab eventType={eventType} />,
     apps: <EventAppsTab eventType={{ ...eventType, URL: permalink }} />,
-    workflows: (
-      <EventWorkflowsTab
-        eventType={eventType}
-        workflows={eventType.workflows.map((workflowOnEventType) => workflowOnEventType.workflow)}
-      />
-    ),
+    //workflows: (
+    //  <EventWorkflowsTab
+    //    eventType={eventType}
+    //    workflows={eventType.workflows.map((workflowOnEventType) => workflowOnEventType.workflow)}
+    //  />
+    //),
     webhooks: <EventWebhooksTab eventType={eventType} />,
   } as const;
 
@@ -442,7 +441,8 @@ const EventTypePage = (props: EventTypeSetupProps) => {
         availability={availability}
         isUpdateMutationLoading={updateMutation.isLoading}
         formMethods={formMethods}
-        disableBorder={tabName === "apps" || tabName === "workflows" || tabName === "webhooks"}
+        disableBorder={tabName === "apps" || tabName === "webhooks"}
+        //|| tabName === "workflows" 
         currentUserMembership={currentUserMembership}
         isUserOrganizationAdmin={props.isUserOrganizationAdmin}>
         <Form
