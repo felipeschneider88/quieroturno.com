@@ -31,7 +31,7 @@ CREATE TABLE "users" (
     "password" TEXT,
     "bio" TEXT,
     "avatar" TEXT,
-    "timeZone" TEXT NOT NULL DEFAULT E'Europe/London',
+    "timeZone" TEXT NOT NULL DEFAULT E'America/Montevideo',
     "weekStart" TEXT DEFAULT E'Sunday',
     "startTime" INTEGER NOT NULL DEFAULT 0,
     "endTime" INTEGER NOT NULL DEFAULT 1440,
