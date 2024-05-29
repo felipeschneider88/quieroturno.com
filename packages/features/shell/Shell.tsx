@@ -445,6 +445,7 @@ function UserDropdown({ small }: UserDropdownProps) {
                   </DropdownItem>
                 </DropdownMenuItem>
                 <DropdownMenuSeparator />
+                {/* Hello World 
                 <DropdownMenuItem>
                   <DropdownItem
                     type="button"
@@ -458,7 +459,7 @@ function UserDropdown({ small }: UserDropdownProps) {
                     {t("download_desktop_app")}
                   </DropdownItem>
                 </DropdownMenuItem>
-
+*/}
                 <DropdownMenuSeparator />
 
                 <DropdownMenuItem>
@@ -560,17 +561,17 @@ const navigation: NavigationItemType[] = [
     href: "/more",
     icon: MoreHorizontal,
   },
-/*   {
-    name: "Routing Forms",
-    href: "/apps/routing-forms/forms",
-    icon: FileText,
-    isCurrent: ({ pathname }) => pathname?.startsWith("/apps/routing-forms/"),
-  },
-  {
-    name: "workflows",
-    href: "/workflows",
-    icon: Zap,
-  }, */
+  /*   {
+      name: "Routing Forms",
+      href: "/apps/routing-forms/forms",
+      icon: FileText,
+      isCurrent: ({ pathname }) => pathname?.startsWith("/apps/routing-forms/"),
+    },
+    {
+      name: "workflows",
+      href: "/workflows",
+      icon: Zap,
+    }, */
   {
     name: "insights",
     href: "/insights",
@@ -645,9 +646,8 @@ const NavigationItem: React.FC<{
             "text-default group flex items-center rounded-md px-2 py-1.5 text-sm font-medium",
             item.child ? `[&[aria-current='page']]:bg-transparent` : `[&[aria-current='page']]:bg-emphasis`,
             isChild
-              ? `[&[aria-current='page']]:text-emphasis [&[aria-current='page']]:bg-emphasis hidden h-8 pl-16 lg:flex lg:pl-11 ${
-                  props.index === 0 ? "mt-0" : "mt-px"
-                }`
+              ? `[&[aria-current='page']]:text-emphasis [&[aria-current='page']]:bg-emphasis hidden h-8 pl-16 lg:flex lg:pl-11 ${props.index === 0 ? "mt-0" : "mt-px"
+              }`
               : "[&[aria-current='page']]:text-emphasis mt-0.5 text-sm",
             isLocaleReady ? "hover:bg-emphasis hover:text-emphasis" : ""
           )}
@@ -861,7 +861,6 @@ function SideBar({ bannersHeight, user }: SideBarProps) {
             </div>
           </header>
 
-          <hr className="desktop-only border-subtle absolute -left-3 -right-3 mt-4 block w-full" />
 
           {/* logo icon for tablet */}
           <Link href="/event-types" className="text-center md:inline lg:hidden">
