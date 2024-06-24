@@ -22,11 +22,7 @@ function detectTransport(): SendmailTransport.Options | SMTPConnection.Options |
       host: process.env.EMAIL_SERVER_HOST,
       port,
       auth,
-      secure: false,
-      tls: {
-        rejectUnauthorized: false,
-        requireTLS: true,
-      },
+      secure: true,
     };
 
     return transport;
