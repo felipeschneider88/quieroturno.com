@@ -99,3 +99,4 @@ apps/auth
 !.yarn/versions
 packages/prisma/.env
 .env.appStore.example
+packages/lib/constants.ts
